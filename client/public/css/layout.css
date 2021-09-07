@@ -34,10 +34,11 @@ body {
 
 header {
   position: relative;
+  /* background: url(../images/stairs6.jpg) no-repeat top center; */
+  background-image: linear-gradient(to bottom, rgba(40, 109, 13, 0.10), rgb(195, 155, 119, 0.73)), url(../images/stairs6.jpg);
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/networkingGreen2.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -80,7 +81,7 @@ header .banner-text h3 {
   color: white;
   margin: 0 auto;
   width: 70%;
-  /* text-shadow: 0px 1px 2px rgba(0, 0, 0, .5); */
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
 
 header .banner-text h3 span, header .banner-text h3 a {
@@ -99,7 +100,7 @@ header .banner-text hr {
 header .social {
   margin: 24px 0;
   padding: 0;
-  font-size: 30px;
+  font-size: 60px;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
 
@@ -150,6 +151,7 @@ header .scrolldown a:hover {
   padding: 0;
   border: none;
   outline: none;
+  background-color: beige;
 }
 
 /* nav-wrap */
@@ -197,9 +199,9 @@ ul#nav li a {
   display: inline-block;
   padding: 8px 13px;
   line-height: 32px;
-  text-decoration: none;
+  text-decoration: underline;
   text-align: left;
-  color: #fff;
+  color: slategrey;
   -webkit-transition: color .2s ease-in-out;
   -moz-transition: color .2s ease-in-out;
   -o-transition: color .2s ease-in-out;
@@ -212,7 +214,8 @@ ul#nav li a:active {
 }
 
 ul#nav li.current a {
-  color: grey;
+  color: black;
+  text-decoration: none;
 }
 
 /* ------------------------------------------------------------------ */
@@ -221,10 +224,16 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: #2B2B2B;
+  background: rgb(236, 236, 217);
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
+}
+
+@media screen and (max-width: 400px) {
+  #about {
+    background: rgb(209, 209, 179);
+  }
 }
 
 #about a, #about a:visited {
@@ -237,13 +246,19 @@ ul#nav li.current a {
 
 #about h2 {
   font: 22px/30px 'opensans-bold', sans-serif;
-  color: #fff;
+  color: black;
   margin-bottom: 12px;
+}
+
+#about li {
+  line-height: 30px;
+  color: black;
+  font-weight: bold;
 }
 
 #about p {
   line-height: 30px;
-  color: #7A7A7A;
+  color: black;
 }
 
 #about .profile-pic {
@@ -308,7 +323,7 @@ ul#nav li.current a {
 }
 
 #resume h1 span {
-  border-bottom: 3px solid purple;
+  border-bottom: 3px solid rgb(209, 209, 179);
   padding-bottom: 6px;
 }
 
@@ -797,8 +812,15 @@ ul#nav li.current a {
   padding-top: 96px;
   padding-bottom: 102px;
   color: white;
-  background: #161415 url(../images/steelbkg.jpg) no-repeat top center;
+  background: rgb(209, 209, 179);
 }
+
+/* @media screen and (max-width: 900px) {
+  #contact {
+    background: rgb(209, 209, 179) url(../images/Logo1fade.png) no-repeat top center; */
+
+/* }
+} */
 
 #contact .section-head {
   margin-bottom: 42px;
@@ -837,7 +859,7 @@ ul#nav li.current a {
 
 #contact h4 {
   font: 16px/24px 'opensans-bold', sans-serif;
-  color: #EBEEEE;
+  color: black;
   margin-bottom: 6px;
 }
 
@@ -859,7 +881,7 @@ ul#nav li.current a {
 #contact label {
   font: 15px/24px 'opensans-bold', sans-serif;
   margin: 12px 0;
-  color: #EBEEEE;
+  color: black;
   display: inline-block;
   float: left;
   width: 26%;
@@ -974,7 +996,7 @@ footer a, footer a:visited {
 }
 
 footer a:hover, footer a:focus {
-  color: yellowgreen;
+  color: white;
 }
 
 /* copyright */
@@ -1019,7 +1041,7 @@ footer .social-links li {
   margin: 0;
   padding: 0;
   margin-left: 42px;
-  color: yellowgreen;
+  color: white;
 }
 
 footer .social-links li:first-child {
@@ -1054,5 +1076,5 @@ footer .social-links li:first-child {
 }
 
 #go-top a:hover {
-  background-color: yellowgreen;
+  background-color: white;
 }

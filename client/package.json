@@ -2,7 +2,7 @@
   "name": "",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://infiernodeashly.github.io/TheSecretPathLLC",
+  
   "proxy": "http://localhost:3000/",
   "dependencies": {
     "react": "^16.13.1",

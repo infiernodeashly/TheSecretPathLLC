@@ -3,18 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-<<<<<<< HEAD
-=======
    "homepage": "https://infiernodeashly.github.io",
->>>>>>> b0ee142b4e7f624838df11c758cb534859a721bc
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
-<<<<<<< HEAD
-    "predeploy": "npm run build",
-=======
->>>>>>> b0ee142b4e7f624838df11c758cb534859a721bc
     "client": "cd client && npm run start",
     "seed": "node scripts/seedDB.js",
     "install": "cd client && npm install",

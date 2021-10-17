@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+<<<<<<< HEAD
   "homepage": "https://infiernodeashly.github.io",
+=======
+   
+>>>>>>> 41dbe6b5daf8afa50cf2314f1c54a532ba5056d7
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",

@@ -802,6 +802,18 @@ properly.
 	text-align: center !important;
 }
 
+/*Portfolio centering*/
+.item-wrap-align {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-wrap-align {
+  width: 100%;
+  height: 100%;
+}
+
 
 
 

@@ -37,7 +37,7 @@ class Portfolio extends Component {
 
             <h1>Check Out My Portfolio. <br></br>(right click to open in a new tab or window.)</h1>
 
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+            <div id="portfolio-wrapper" className="item-wrap-align bgrid-quarters s-bgrid-thirds cf">
               {/* display portfolio projects following above layout, below */}
               {projects}
             </div>

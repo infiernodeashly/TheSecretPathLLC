@@ -811,7 +811,7 @@ ul#nav li.current a {
   background: white;
   padding-top: 96px;
   padding-bottom: 102px;
-  color: white;
+  color: black;
   background: rgb(209, 209, 179);
 }
 
@@ -923,7 +923,7 @@ ul#nav li.current a {
 }
 
 #contact span.required {
-  color: yellowgreen;
+  color: red;
   font-size: 13px;
 }
 

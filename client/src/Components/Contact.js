@@ -52,7 +52,7 @@ const Contact = ({ data }) => {
                   </div>
               {/* Subject field */}
                   <div>
-						   <label htmlFor="contactSubject">Subject</label>
+						   <label htmlFor="contactSubject">Subject <span className="required">*</span></label>
 						   <input value={subject} type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={e => setSubject(e.target.value)}/>
                   </div>
               {/* Message field */}

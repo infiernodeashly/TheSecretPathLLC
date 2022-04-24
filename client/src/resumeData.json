@@ -17,7 +17,7 @@
       "city": "Manassas",
       "state": "Northern VA"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "https://www.timbakerdev.com",
     "resumedownload": "images/portfolio/AshlyMayle-TechnicalResume.pdf",
     "social": [
       {
@@ -106,7 +106,50 @@
         "category": "Restaurant and Golf",
         "image": "mulligans.png",
         "url": "https://mulliganspubonthegreen.godaddysites.com/"
-      }
+      }      
+
+    ],
+    "marketing": [
+      {
+        "title": "Keep Calm & Purr On",
+        "category": "Social Media",
+        "image": "keepcalmgraphic.png",
+        "url": "https://www.facebook.com/103699122123066/posts/112743394551972/?d=n"
+      },
+      {
+        "title": "ResidentLinks Promotion Plan",
+        "category": "Promotional Event",
+        "image": "ResidentLinks.png",
+        "url": "https://ashlymayle.wordpress.com/portfolio/pr-marketing/"
+      },
+      {
+        "title": "Social Entrepreneurship Campaign",
+        "category": "Public Relations Campaign",
+        "image": "SocialEntrepreneurshipCampaign.png",
+        "url": "https://ashlymayle.wordpress.com/portfolio/pr-marketing/"
+      }      
+
+    ],
+    "logos": [
+      {
+        "title": "American Dreaming Farm and Gardens Logo",
+        "category": "Produce and Flora",
+        "image": "ADFGLogo2.png"
+        
+      },
+      {
+        "title": "Custom Client Logo",
+        "category": "Self Promotion",
+        "image": "Initial.png"
+        
+      },
+      {
+        "title": "The Secret Path Accessories",
+        "category": "Jewelry and Accessories",
+        "image": "Logo1.png"
+        
+      }      
+
     ]
   }
 }
